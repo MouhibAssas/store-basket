@@ -1,0 +1,17 @@
+@media (max-width:900px){
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+    .item1{
+        order:2;
+    }
+    .item2 , .item2 img{
+        order:1;
+    }
+    .item2 img{
+        max-height: 400px;
+        width: 80%;
+        object-fit: cover;
+    }
+}
