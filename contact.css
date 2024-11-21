@@ -15,6 +15,12 @@
     margin-left: 20px;
     font-size: 16px;
     }
+@media (max-width:900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
 form{
 margin: 10px 0px;
 text-align: left;
