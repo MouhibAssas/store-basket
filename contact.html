@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/contact.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="icon" type="image/png" href="Basket website/Basket Berne.png">
+
+    
+</head>
+<div id="header"></div>
+<body>
+    <div class="container">
+    <div class="item1">
+        <img src="/Basket website/Contact picture.png" class="pic-main2"alt="">
+</div>
+    <div class="item3">
+        <div class="item3-child">
+
+        <h1>Contact</h1>
+        <p>If you have any questions or wish to make a purchase, please provide your details along with the name of the product from our store page. If you would like something more personalized, feel free to add your specific requirements in the description. We will get in touch with you to confirm your order or to assist you further.</p>
+        <form action="">
+            <label>First name</label>
+            <input type="name" class="fullname" placeholder="Enter your first name">
+            <label>Last name</label>
+            <input type="name" class="fullname" placeholder="Enter your last name">
+            <label>E-mail</label>
+            <input type="email" class="input-form" placeholder="Enter your e-mail">
+            <label for="">Number Phone</label>
+            <input type="number" class="input-form" placeholder="Enter your number phone">
+            <label for="text">Message</label>
+            <textarea name="message" id="message-form" placeholder="Enter your message"></textarea>
+            <div class="btn-div"><button type="submit" class="btn">Submit</button> 
+            <button type="reset" class="btn">Reset</button>
+        </div>
+    </form>
+    </div>
+    </div>
+</div>
+</body>
+<div id="footer"></div>
+<script>
+    // Inclure le header et le footer dynamiquement
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+</html>

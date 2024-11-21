@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/store.css">
+    <link rel="icon" type="image/png" href="Basket website/Basket Berne.png">
+
+    
+</head>
+<div id="header"></div>
+<body>
+
+    <p class="page-description">Explore our curated collection of handmade baskets, each crafted with care to bring style and functionality to your home</p>
+    <div class="container-store">
+        <div class="item1-store">
+            
+                <img class="img-store" src="/Basket website/4.jpg" alt="">
+                <div class="product">
+                <h1 class="title-product">Rustic Hanging Woven Basket </h1>
+                <h1 class="price-tag-store">60 CHF</h1>
+                </div>
+                <p class="product-description">Elevate your space with this beautifully woven hanging basket, perfect for adding a touch of natural elegance to any room. Ideal for holding dried flowers or other decorative items, this basket blends rustic charm with practical design. Hang it in your entryway, living room, or kitchen for an instant style upgrade.</p>
+
+        </div>
+        <div class="item2-store">
+                <img  class="img-store" src="/Basket website/3.jpeg" alt="">
+                <div class="product">
+                    <h1 class="title-product" >Handwoven Storage Basket with Handles</h1>
+                <h1 class="price-tag-store"> 78 CHF</h1>
+            </div>
+                <p class="product-description">This handwoven storage basket is the perfect blend of durability and style. Its spacious design and sturdy handles make it ideal for organizing anything from blankets to toys while adding a warm, natural touch to your home decor. Place it in your living room, bedroom, or bathroom to keep your space tidy and chic.</p>
+        </div>
+        <div class="item3-store">
+                <img class="img-store" src="/Basket website/5.webp" alt="">
+                <div class="product">
+                <h1 class="title-product">Pull-Out Kitchen Storage Baskets</h1>
+                <h1 class="price-tag-store"> 100 CHF</h1>
+            </div>
+                <p class="product-description">Keep your kitchen organized and stylish with these convenient pull-out baskets, perfect for storing fresh produce or pantry essentials. Handwoven with care, these baskets add a warm, rustic charm to your kitchen while maximizing storage space. Ideal for easy access to fruits, vegetables, and more.</p>
+        </div>
+    </div>
+    <div class="container-store">
+        <div class="item1-store">
+            
+                <img class="img-store" src="/Basket website/4.jpg" alt="">
+                <div class="product">
+                <h1 class="title-product">Rustic Hanging Woven Basket </h1>
+                <h1 class="price-tag-store">60 CHF</h1>
+                </div>
+                <p class="product-description">Elevate your space with this beautifully woven hanging basket, perfect for adding a touch of natural elegance to any room. Ideal for holding dried flowers or other decorative items, this basket blends rustic charm with practical design. Hang it in your entryway, living room, or kitchen for an instant style upgrade.</p>
+
+        </div>
+        <div class="item2-store">
+                <img  class="img-store" src="/Basket website/3.jpeg" alt="">
+                <div class="product">
+                    <h1 class="title-product" >Handwoven Storage Basket with Handles</h1>
+                <h1 class="price-tag-store"> 78 CHF</h1>
+            </div>
+                <p class="product-description">This handwoven storage basket is the perfect blend of durability and style. Its spacious design and sturdy handles make it ideal for organizing anything from blankets to toys while adding a warm, natural touch to your home decor. Place it in your living room, bedroom, or bathroom to keep your space tidy and chic.</p>
+        </div>
+        <div class="item3-store">
+                <img class="img-store" src="/Basket website/5.webp" alt="">
+                <div class="product">
+                <h1 class="title-product">Pull-Out Kitchen Storage Baskets</h1>
+                <h1 class="price-tag-store"> 100 CHF</h1>
+            </div>
+                <p class="product-description">Keep your kitchen organized and stylish with these convenient pull-out baskets, perfect for storing fresh produce or pantry essentials. Handwoven with care, these baskets add a warm, rustic charm to your kitchen while maximizing storage space. Ideal for easy access to fruits, vegetables, and more.</p>
+        </div>
+    </div>
+    
+</body>
+<div id="footer"></div>
+<script>
+    // Inclure le header et le footer dynamiquement
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+</html>

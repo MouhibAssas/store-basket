@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/about.css">
+    <link rel="icon" type="image/png" href="Basket website/Basket Berne.png">
+    
+</head>
+<div id="header"></div>
+<body>
+    <div class="container">
+        <div class="item1">
+            <div class="item1-child">
+            <h1>About us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam deleniti maiores dolor neque sit amet maxime, voluptas blanditiis. Magnam quia nobis non numquam nesciunt praesentium mollitia, veritatis labore vel!</p>
+            </div>
+    </div>
+        <div class="item2">
+            <img src="/Basket website/pic.webp" class="pic-main1">
+        </div>
+</div>
+</body>
+<div id="footer"></div>
+<script>
+    // Inclure le header et le footer dynamiquement
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+</html>
